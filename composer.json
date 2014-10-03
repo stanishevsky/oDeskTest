@@ -1,0 +1,23 @@
+{
+    "name": "stanishevsky/odesk_test_01",
+    "description": "Test task for oDesk interview",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Constantine Stanishevsky",
+            "email": "constantine@stanishevsky.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.2.6"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "oDeskTest":        "src/",
+            "oDeskTest\\Tests": "tests/"
+        }
+    }
+
+}
